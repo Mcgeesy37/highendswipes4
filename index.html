@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>CoreSetup Studio – Premium Web & Infrastructure</title>
+  <meta name="description" content="CoreSetup Studio: Premium Websites, technische Stabilisierung und Hosting für Unternehmen. Deutschlandweit remote, strukturiert dokumentiert." />
+  <meta name="robots" content="index,follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="CoreSetup Studio – Premium Web & Infrastructure" />
+  <meta property="og:description" content="Premium Websites, Stabilisierung & Betrieb für Unternehmen mit Anspruch." />
+  <meta property="og:type" content="website" />
+
+  <!-- Fonts (fast + elegant). Wenn du später noch schneller willst: self-host. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!-- JSON-LD (SEO) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"ProfessionalService",
+    "name":"CoreSetup Studio",
+    "areaServed":"DE",
+    "serviceType":["Webdesign","Website Modernisierung","Technische Stabilisierung","Hosting & Monitoring"],
+    "url":"",
+    "email":"kontakt@deinedomain.de"
+  }
+  </script>
+</head>
+
+<body>
+  <!-- Background (WebGL) -->
+  <div class="bg">
+    <canvas id="bg-webgl" aria-hidden="true"></canvas>
+    <div class="bg-vignette" aria-hidden="true"></div>
+    <div class="bg-noise" aria-hidden="true"></div>
+  </div>
+
+  <!-- Cursor spotlight (subtle, premium) -->
+  <div class="spotlight" aria-hidden="true"></div>
+
+  <header class="header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="CoreSetup Studio Home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-text">
+          <span class="brand-name">CoreSetup Studio</span>
+          <span class="brand-sub">Websites · Infrastructure · Stability</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#services">Leistungen</a>
+        <a href="#projects">Projekte</a>
+        <a href="#process">Ablauf</a>
+        <a href="#contact" class="nav-cta">Kontakt</a>
+      </nav>
+
+      <button class="menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#services">Leistungen</a>
+      <a href="#projects">Projekte</a>
+      <a href="#process">Ablauf</a>
+      <a href="#contact">Kontakt</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO (CENTERED + PREMIUM) -->
+    <section class="hero" aria-label="Hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Premium Digital Setup</p>
+
+          <h1 class="hero-title">
+            Digitale Systeme,<br />
+            <span class="accent">die Autorität ausstrahlen.</span>
+          </h1>
+
+          <p class="hero-sub">
+            High-End Websites, technische Stabilisierung & Hosting für Unternehmen mit Anspruch.
+            Remote in Deutschland — strukturiert, dokumentiert, zuverlässig.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Projekt starten</a>
+            <a class="btn btn-ghost" href="#projects">Referenzen ansehen</a>
+          </div>
+
+          <div class="hero-proof">
+            <div class="proof">
+              <div class="proof-top">Performance</div>
+              <div class="proof-bottom">Core Web Vitals Fokus</div>
+            </div>
+            <div class="proof">
+              <div class="proof-top">Stability</div>
+              <div class="proof-bottom">saubere Struktur</div>
+            </div>
+            <div class="proof">
+              <div class="proof-top">Baseline</div>
+              <div class="proof-bottom">Defensive Security</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-panel-wrap">
+          <div class="hero-panel reveal">
+            <div class="panel-top">
+              <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+              <span class="panel-title">System Overview</span>
+            </div>
+
+            <div class="panel-grid">
+              <div class="panel-card">
+                <div class="k">Stability</div>
+                <div class="v">99.9%</div>
+              </div>
+              <div class="panel-card">
+                <div class="k">Speed</div>
+                <div class="v">A</div>
+              </div>
+              <div class="panel-card">
+                <div class="k">SEO</div>
+                <div class="v">Clean</div>
+              </div>
+              <div class="panel-card">
+                <div class="k">Security</div>
+                <div class="v">Baseline</div>
+              </div>
+            </div>
+
+            <div class="panel-bar"></div>
+            <p class="panel-note">
+              Premium wirkt nicht durch Effekte — sondern durch Struktur, Tempo und saubere Übergabe.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-fade" aria-hidden="true"></div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Leistungen</h2>
+          <p>Minimalistisch im Look — maximal sauber in der Umsetzung.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card reveal">
+            <h3>Website Modernisierung</h3>
+            <p>Relaunch, Struktur, mobile-first, Premium-Layout, Performance-Basics.</p>
+            <ul>
+              <li>Design + Umsetzung</li>
+              <li>Performance & SEO Basics</li>
+              <li>Saubere Übergabe</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <h3>Technische Stabilisierung</h3>
+            <p>Fixes nach Umstellungen, kaputte Assets, Layout-Probleme, Ladezeiten.</p>
+            <ul>
+              <li>Analyse + Fixes</li>
+              <li>Refactoring</li>
+              <li>Dokumentation</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <h3>Hosting & Betrieb</h3>
+            <p>Domain/DNS, SSL, Monitoring, Backups — mit klaren Zuständigkeiten.</p>
+            <ul>
+              <li>SSL & DNS Setup</li>
+              <li>Uptime/Alerts</li>
+              <li>Backup-Konzept</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="note reveal">
+          Hinweis: Security-Leistungen sind defensiv (Baseline). Keine offensiven Tests ohne schriftliche Freigabe.
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS (3 Stück, Bild + Link) -->
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Ausgewählte Projekte</h2>
+          <p>Echte Beispiele (mit Einverständnis). Klick öffnet die Live-Seite.</p>
+        </div>
+
+        <div class="projects">
+          <!-- Ersetze href="#" mit Live-URLs -->
+          <a class="project reveal" href="#" target="_blank" rel="noopener">
+            <div class="project-media">
+              <img src="assets/images/project1.jpg" alt="Projekt 1 Preview" loading="lazy">
+            </div>
+            <div class="project-body">
+              <div class="project-title">Restaurant Website</div>
+              <div class="project-sub">Premium Landing + Performance</div>
+            </div>
+          </a>
+
+          <a class="project reveal" href="#" target="_blank" rel="noopener">
+            <div class="project-media">
+              <img src="assets/images/project2.jpg" alt="Projekt 2 Preview" loading="lazy">
+            </div>
+            <div class="project-body">
+              <div class="project-title">Handwerksbetrieb</div>
+              <div class="project-sub">Modernisierung + klare Struktur</div>
+            </div>
+          </a>
+
+          <a class="project reveal" href="#" target="_blank" rel="noopener">
+            <div class="project-media">
+              <img src="assets/images/project3.jpg" alt="Projekt 3 Preview" loading="lazy">
+            </div>
+            <div class="project-body">
+              <div class="project-title">Lokales Unternehmen</div>
+              <div class="project-sub">Stabilisierung + Betrieb</div>
+            </div>
+          </a>
+        </div>
+
+        <p class="projects-foot reveal">
+          Tipp: Wenn ein Bild mal nicht lädt, prüfe Dateiname (Groß-/Kleinschreibung) und ob es wirklich im Repo liegt.
+        </p>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section id="process" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Ablauf</h2>
+          <p>Kurzer Check, klare Umsetzung, saubere Übergabe.</p>
+        </div>
+
+        <div class="steps">
+          <div class="step reveal">
+            <div class="step-n">01</div>
+            <div class="step-t">Quick Audit</div>
+            <div class="step-d">Ziel, aktueller Stand, Risiko/Impact, Aufwand.</div>
+          </div>
+          <div class="step reveal">
+            <div class="step-n">02</div>
+            <div class="step-t">Build & Stabilize</div>
+            <div class="step-d">Umsetzung, Fixes, Performance, saubere Struktur.</div>
+          </div>
+          <div class="step reveal">
+            <div class="step-n">03</div>
+            <div class="step-t">Handover</div>
+            <div class="step-d">Dokumentation + Übergabe + optional Betrieb.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <div class="contact reveal">
+          <h2>Kontakt</h2>
+          <p>Schick Link + Ziel (2 Sätze). Du bekommst eine klare Einschätzung.</p>
+          <a class="btn btn-primary" href="mailto:kontakt@deinedomain.de">kontakt@deinedomain.de</a>
+
+          <div class="contact-meta">
+            <div class="meta">
+              <div class="k">Remote</div>
+              <div class="v">Deutschlandweit</div>
+            </div>
+            <div class="meta">
+              <div class="k">Antwort</div>
+              <div class="v">i.d.R. 24h</div>
+            </div>
+            <div class="meta">
+              <div class="k">Setup</div>
+              <div class="v">klar dokumentiert</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div>© <span id="year"></span> CoreSetup Studio</div>
+        <div class="footer-links">
+          <a href="impressum.html">Impressum</a>
+          <a href="datenschutz.html">Datenschutz</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
